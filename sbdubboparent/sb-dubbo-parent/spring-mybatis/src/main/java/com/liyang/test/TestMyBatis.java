@@ -55,9 +55,11 @@ public class TestMyBatis {
 //        for (UserBean userBean:userBeanList) {
 //            System.out.println(userBean.toString());
 //        }
-        List<UserBean> userBeanList = userMapper.getUserByName("孙萌");
-        for (UserBean userBean:userBeanList) {
-            System.out.println(userBean.toString());
-        }
+//        List<UserBean> userBeanList = userMapper.getUserByName("孙萌");
+//        for (UserBean userBean:userBeanList) {
+//            System.out.println(userBean.toString());
+//        }
+        UserBean userBean = userMapper.getUserByUid("d626a914-f976-472c-9e86-d08bc7569609");
+        System.out.println(userBean);
     }
 }

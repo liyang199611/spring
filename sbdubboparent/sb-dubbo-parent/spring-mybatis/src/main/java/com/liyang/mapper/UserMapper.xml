@@ -15,4 +15,8 @@
     <select id="getUserByName" resultType="userBean">
         select * from users where name=#{name}
     </select>
+
+    <select id="getUserByUid" resultType="userBean">
+        select * from users where uid=#{uid}
+    </select>
 </mapper>
