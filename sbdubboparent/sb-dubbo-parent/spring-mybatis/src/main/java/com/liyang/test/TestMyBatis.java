@@ -59,7 +59,18 @@ public class TestMyBatis {
 //        for (UserBean userBean:userBeanList) {
 //            System.out.println(userBean.toString());
 //        }
-        UserBean userBean = userMapper.getUserByUid("d626a914-f976-472c-9e86-d08bc7569609");
-        System.out.println(userBean);
+//        UserBean userBean = userMapper.getUserByUid("d626a914-f976-472c-9e86-d08bc7569609");
+//        System.out.println(userBean);
+
+        // 新增用户
+        UserBean userBean = new UserBean("00001","科比","123456789","美国","男","运动员");
+        try{
+            userMapper.addUser(userBean);
+//            int i =1/0;
+            session.commit();
+        }catch (Exception e){
+            session.rollback();
+            e.printStackTrace();
+        }
     }
 }

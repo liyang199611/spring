@@ -7,7 +7,7 @@ public class UserBean {
     private String address;
     private String sex;
     private String job;
-    UserBean(){}
+    public UserBean(){}
 
     public String getUid() {
         return uid;

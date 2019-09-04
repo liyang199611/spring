@@ -19,4 +19,7 @@
     <select id="getUserByUid" resultType="userBean">
         select * from users where uid=#{uid}
     </select>
+    <insert id="addUser" parameterType="userBean">
+        insert into users(uid,name,phone,address,sex,job)values(#{userBean.uid},#{userBean.name},#{userBean.phone},#{userBean.address},#{userBean.sex},#{userBean.job})
+    </insert>
 </mapper>
