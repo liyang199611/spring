@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7afe9290-6cc6-4890-80b3-8a345462ce7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/resource/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/test/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/test/SpringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/target/classes/com/liyang/test/SpringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/target/classes/com/liyang/test/SpringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/src/main/java/com/liyang/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/src/main/java/com/liyang/App.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/sb-dubbo-parent/target/" />
@@ -19,12 +24,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/java/com/liyang/mapper/UserMapper.java">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/test/SpringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            <state relative-caret-position="456">
+              <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,31 +38,105 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/java/com/liyang/test/TestMyBatis.java">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/TestBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            <state relative-caret-position="208">
+              <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/java/com/liyang/pojo/UserBean.java">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/UserBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="52">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/java/com/liyang/mapper/UserMapper.xml">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/ProductConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="130">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/StudentConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/StudentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/impl/StudentServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/impl/ProductServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -67,8 +146,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -99,12 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/sb-dubbo-customer/src/main/java/com/liyang/sb/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/sb-dubbo-customer/src/main/java/com/liyang/sb/aop/WebAspect.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/sb-demo-study/src/main/java/com/liyang/aop/servicee.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/sb-demo-study/src/main/java/com/liyang/aop/UserService.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/sb-demo-study/src/main/java/com/liyang/aop/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/sb-demo-study/src/main/java/com/liyang/aop/MyAop.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/sb-demo-study/src/main/java/com/liyang/collection/SetDemo.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/sb-demo-study/src/main/java/com/liyang/thread/Test.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/sb-demo-study/src/main/java/com/liyang/thread/SynObj.java" />
@@ -117,7 +190,6 @@
         <option value="$PROJECT_DIR$/sb-dubbo-parent/sb-demo-study/src/main/java/com/liyang/thread/LockTest.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/Source.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/MakeJuice.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/Student.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/resource/db.properties" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/test/TestSpring.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/resource/applicationContext.xml" />
@@ -126,17 +198,13 @@
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/CollectionBean.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/aspect/LoggerAspect.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/Product.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/ProductConfig.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/ProductService.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/test/SingleLinkedList.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/pom.xml" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/source/jdbc.xml" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/UserBean.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/sb-demo-study/src/main/java/com/liyang/thread/DeadLock.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/UserService.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/test/SpringTest.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/source/application.xml" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/test/java/com/liyang/pojo/UserBean.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/test/java/com/liyang/test/TestMyBatis.java" />
@@ -150,6 +218,17 @@
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/java/com/liyang/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/java/com/liyang/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/java/com/liyang/test/TestMyBatis.java" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/src/main/java/com/liyang/App.java" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/test/SingleLinkedList.java" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/Drink.java" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/ProductConfig.java" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/Student.java" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/StudentConfig.java" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/test/SpringTest.java" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/TestBean.java" />
       </list>
     </option>
   </component>
@@ -171,9 +250,9 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="6" />
-    <option name="y" value="224" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="277" />
+    <option name="y" value="154" />
     <option name="width" value="1381" />
     <option name="height" value="1056" />
   </component>
@@ -183,8 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,25 +272,25 @@
             <path>
               <item name="sbdubboparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sbdubboparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sbdubboparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sbdubboparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -221,7 +298,7 @@
             <path>
               <item name="sbdubboparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -230,17 +307,58 @@
             <path>
               <item name="sbdubboparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liyang" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sbdubboparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liyang" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sbdubboparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liyang" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sbdubboparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="liyang" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sbdubboparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,7 +374,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567575255535" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567666026065" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -301,16 +419,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestMyBatis.testMapper">
-    <configuration name="TestMyBatis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liyang.test.TestMyBatis" />
-      <module name="spring-mybatis" />
+  <component name="RunManager" selected="JUnit.SpringTest.test8">
+    <configuration name="SingleLinkedList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.liyang.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.liyang.test" />
+      <option name="MAIN_CLASS_NAME" value="com.liyang.test.SingleLinkedList" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTest.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liyang.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.liyang.test" />
+      <option name="MAIN_CLASS_NAME" value="com.liyang.test.SpringTest" />
+      <option name="METHOD_NAME" value="test8" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -347,22 +484,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyBatis.listUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.liyang.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.liyang.test" />
-      <option name="MAIN_CLASS_NAME" value="com.liyang.test.TestMyBatis" />
-      <option name="METHOD_NAME" value="listUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestMyBatis.testMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-mybatis" />
       <extension name="coverage">
@@ -387,20 +508,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestMyBatis" />
-      <item itemvalue="JUnit.TestMyBatis.listUser" />
       <item itemvalue="JUnit.TestMyBatis.getUserCount" />
       <item itemvalue="JUnit.TestMyBatis.getUserByName" />
       <item itemvalue="JUnit.TestMyBatis.testMapper" />
       <item itemvalue="Spring Boot.App" />
+      <item itemvalue="JUnit.SingleLinkedList.test" />
+      <item itemvalue="JUnit.SpringTest.test8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringTest.test8" />
+        <item itemvalue="JUnit.SingleLinkedList.test" />
         <item itemvalue="JUnit.TestMyBatis.testMapper" />
         <item itemvalue="JUnit.TestMyBatis.getUserByName" />
         <item itemvalue="JUnit.TestMyBatis.getUserCount" />
-        <item itemvalue="JUnit.TestMyBatis.listUser" />
-        <item itemvalue="Application.TestMyBatis" />
       </list>
     </recent_temporary>
   </component>
@@ -427,50 +548,51 @@
       <workItem from="1567496442692" duration="4506000" />
       <workItem from="1567516455521" duration="8500000" />
       <workItem from="1567564661991" duration="32000" />
-      <workItem from="1567573955738" duration="1278000" />
+      <workItem from="1567573955738" duration="4443000" />
+      <workItem from="1567663345995" duration="2670000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMyBatis_testMapper - 2019.09.03 at 23h 19m 08s.xml">
-      <configuration name="TestMyBatis.testMapper" configurationId="JUnit" />
+    <history-entry file="SpringTest_test8 - 2019.09.05 at 14h 23m 59s.xml">
+      <configuration name="SpringTest.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMyBatis_testMapper - 2019.09.03 at 23h 19m 20s.xml">
-      <configuration name="TestMyBatis.testMapper" configurationId="JUnit" />
+    <history-entry file="SpringTest_test8 - 2019.09.05 at 14h 29m 16s.xml">
+      <configuration name="SpringTest.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMyBatis_testMapper - 2019.09.04 at 13h 15m 26s.xml">
-      <configuration name="TestMyBatis.testMapper" configurationId="JUnit" />
+    <history-entry file="SpringTest_test8 - 2019.09.05 at 14h 30m 54s.xml">
+      <configuration name="SpringTest.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMyBatis_testMapper - 2019.09.04 at 13h 16m 12s.xml">
-      <configuration name="TestMyBatis.testMapper" configurationId="JUnit" />
+    <history-entry file="SpringTest_test8 - 2019.09.05 at 14h 31m 29s.xml">
+      <configuration name="SpringTest.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMyBatis_testMapper - 2019.09.04 at 13h 29m 44s.xml">
-      <configuration name="TestMyBatis.testMapper" configurationId="JUnit" />
+    <history-entry file="SpringTest_test8 - 2019.09.05 at 14h 32m 48s.xml">
+      <configuration name="SpringTest.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMyBatis_testMapper - 2019.09.04 at 13h 30m 11s.xml">
-      <configuration name="TestMyBatis.testMapper" configurationId="JUnit" />
+    <history-entry file="SpringTest_test8 - 2019.09.05 at 14h 33m 48s.xml">
+      <configuration name="SpringTest.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMyBatis_testMapper - 2019.09.04 at 13h 31m 04s.xml">
-      <configuration name="TestMyBatis.testMapper" configurationId="JUnit" />
+    <history-entry file="SpringTest_test8 - 2019.09.05 at 14h 40m 10s.xml">
+      <configuration name="SpringTest.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMyBatis_testMapper - 2019.09.04 at 13h 31m 42s.xml">
-      <configuration name="TestMyBatis.testMapper" configurationId="JUnit" />
+    <history-entry file="SpringTest_test8 - 2019.09.05 at 14h 40m 23s.xml">
+      <configuration name="SpringTest.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMyBatis_testMapper - 2019.09.04 at 13h 32m 57s.xml">
-      <configuration name="TestMyBatis.testMapper" configurationId="JUnit" />
+    <history-entry file="SpringTest_test8 - 2019.09.05 at 14h 45m 28s.xml">
+      <configuration name="SpringTest.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMyBatis_testMapper - 2019.09.04 at 13h 33m 52s.xml">
-      <configuration name="TestMyBatis.testMapper" configurationId="JUnit" />
+    <history-entry file="SpringTest_test8 - 2019.09.05 at 14h 46m 24s.xml">
+      <configuration name="SpringTest.test8" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110804000" />
+    <option name="totallyTimeSpent" value="116639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2585288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -482,7 +604,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49840087" visible="true" weight="0.39587852" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49840087" visible="true" weight="0.22234273" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.5633803" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -490,9 +612,9 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.345987" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50159913" side_tool="true" weight="0.664859" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49946696" weight="0.49187434" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49946696" weight="0.24728851" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -672,142 +794,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
-          <folding>
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/sb-demo-study/src/main/java/com/liyang/thread/DeadLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/test/SingleLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="111" column="34" lean-forward="true" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/test/SpringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1477#1487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/aspect/LoggerAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/UserBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/test/java/com/liyang/pojo/UserBean.java" />
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/test/java/com/liyang/AppTest.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/com/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/com/sun/org/apache/xerces/internal/impl/XMLErrorReporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="326" selection-start-line="326" selection-end-line="326" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/com/sun/org/apache/xerces/internal/impl/XMLScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="1471" selection-start-line="1471" selection-end-line="1471" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/jdk/xml/internal/SecuritySupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#746#889#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#2753#2911#0" expanded="true" />
-            <element signature="e#2910#2911#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/jdk/xml/internal/JdkXmlFeatures.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -919,20 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/source/jdbc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/source/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/Closeable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -999,13 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/resource/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -1015,7 +980,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/java/com/liyang/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="208">
           <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1023,26 +988,198 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/java/com/liyang/pojo/UserBean.java">
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/java/com/liyang/test/TestMyBatis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="1352">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/java/com/liyang/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
+        <state relative-caret-position="546">
           <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/java/com/liyang/test/TestMyBatis.java">
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/src/main/java/com/liyang/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        <state relative-caret-position="303">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/src/main/java/com/liyang/pojo/UserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="103" column="67" selection-start-line="103" selection-start-column="67" selection-end-line="103" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/test/SingleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/source/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/source/jdbc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#1477#1487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/Drink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/UserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/ProductConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/StudentConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/test/SpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/src/main/java/com/liyang/pojo/TestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
           </folding>
         </state>
       </provider>
