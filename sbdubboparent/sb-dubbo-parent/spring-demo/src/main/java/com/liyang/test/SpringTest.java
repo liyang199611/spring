@@ -1,9 +1,7 @@
 package com.liyang.test;
-import com.liyang.pojo.CollectionBean;
-import com.liyang.pojo.Product;
-import com.liyang.pojo.ProductConfig;
-import com.liyang.pojo.UserBean;
+import com.liyang.pojo.*;
 import com.liyang.service.ProductService;
+import com.liyang.service.StudentService;
 import com.liyang.service.UserService;
 import com.liyang.service.impl.UserServiceImpl;
 import org.junit.Before;
@@ -18,7 +16,7 @@ import java.util.Set;
 
 public class SpringTest {
     private ApplicationContext context =null;
-    @Before
+//    @Before
     public void  init(){
          context = new ClassPathXmlApplicationContext(new String[]{"application.xml"});
     }
@@ -102,5 +100,16 @@ public class SpringTest {
         UserServiceImpl userService =  context.getBean("userService",UserServiceImpl.class);
 //       userService.getAlUser();
        userService.getUserByUid("d626a914-f976-472c-9e86-d08bc7569609");
+    }
+
+    @Test
+    public void test8(){
+        ApplicationContext context = new AnnotationConfigApplicationContext(StudentConfig.class);
+        Student student = (Student) context.getBean("student",Student.class);
+        System.out.println(student);
+        student.printInfo();
+        StudentService studentService =context.getBean("studentService", StudentService.class);
+        studentService.printStuInfo();
+        System.out.println(context.getBean("testBean1"));
     }
 }
