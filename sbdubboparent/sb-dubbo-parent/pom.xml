@@ -14,6 +14,7 @@
     <module>sb-demo-study</module>
     <module>spring-demo</module>
       <module>spring-mybatis</module>
+      <module>spring-mybatis-demo</module>
   </modules>
 
   <parent>
