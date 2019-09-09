@@ -9,4 +9,6 @@ import java.util.List;
 
 public interface StudentService{
     public void addStu(Student student);
+    // 查询所有学生的详细信息
+    public List<Student> getStudentsInfo();
 }

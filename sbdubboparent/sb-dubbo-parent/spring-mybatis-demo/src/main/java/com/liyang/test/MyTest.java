@@ -77,4 +77,13 @@ public class MyTest {
             clubService.addClub(club);
         }
     }
+
+    @Test
+    public void getStudentsInfo(){
+        StudentServiceImpl studentService = context.getBean("studentService", StudentServiceImpl.class);
+        List<Student> studentsList  = studentService.getStudentsInfo();
+        for (Student student:studentsList) {
+            System.out.println(student.getName()+"---"+student.getClasses()+"--"+student.getClub().getTeacher());
+        }
+    }
 }

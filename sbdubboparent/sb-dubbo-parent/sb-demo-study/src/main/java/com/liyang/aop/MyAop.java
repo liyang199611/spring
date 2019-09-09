@@ -27,7 +27,5 @@ public class MyAop {
             }
         });
         proxy.addUser();
-
-
     }
 }

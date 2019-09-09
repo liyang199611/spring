@@ -11,6 +11,8 @@ public class Student implements Serializable {
     private String address; // 家庭地址
     private int classes; // 班级
 
+    private Club club; // 关联班级信息
+
     public String getName() {
         return name;
     }
@@ -58,5 +60,13 @@ public class Student implements Serializable {
 
     public void setClasses(int classes) {
         this.classes = classes;
+    }
+
+    public Club getClub() {
+        return club;
+    }
+
+    public void setClub(Club club) {
+        this.club = club;
     }
 }
