@@ -16,7 +16,7 @@ import java.util.Set;
 
 public class SpringTest {
     private ApplicationContext context =null;
-//    @Before
+    @Before
     public void  init(){
          context = new ClassPathXmlApplicationContext(new String[]{"application.xml"});
     }
@@ -56,8 +56,8 @@ public class SpringTest {
          * 测试面向切面编程
          */
         UserService userService1 = (UserService) context.getBean("userService");
-        UserService userService2 = (UserService) context.getBean("userService");
-        System.out.println(userService1==userService2);
+//        UserService userService2 = (UserService) context.getBean("userService");
+//        System.out.println(userService1==userService2);
         userService1.sayHello();
 
     }
@@ -86,8 +86,8 @@ public class SpringTest {
         /**
          * 测试自动注入
          */
-//        ProductService productService = context.getBean("productService",ProductService.class);
-//        productService.getPro();
+        ProductService productService = context.getBean("productService",ProductService.class);
+        productService.getPro();
 
         UserService userService = context.getBean("userService",UserService.class);
         userService.getUser();
