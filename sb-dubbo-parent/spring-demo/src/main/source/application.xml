@@ -62,7 +62,8 @@
         <aop:pointcut id="loggerCutpoint" expression="execution(* com.liyang.service.UserService.*(..))"/>
         <!--what做什么增强-->
         <aop:aspect id="logAspect" ref="loggerAspect">
-            <aop:around pointcut-ref="loggerCutpoint" method="log"/>
+            <!--<aop:around pointcut-ref="loggerCutpoint" method="log"/>-->
+            <aop:before method="mylog" pointcut-ref="loggerCutpoint"/>
         </aop:aspect>
 
     </aop:config>

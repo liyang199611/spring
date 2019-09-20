@@ -73,4 +73,13 @@ public class TestMyBatis {
             e.printStackTrace();
         }
     }
+
+    @Test
+    public void testMyBatis(){
+        UserMapper userMapper = session.getMapper(UserMapper.class);
+        List<UserBean> userBeanList = userMapper.getAllUser();
+        for (UserBean userBean:userBeanList) {
+            System.out.println(userBean.toString());
+        }
+    }
 }

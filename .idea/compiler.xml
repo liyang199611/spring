@@ -11,8 +11,12 @@
         <module name="sb-dubbo-provider" />
         <module name="spring-demo" />
         <module name="spring-mybatis" />
+        <module name="spring-mybatis-demo" />
+        <module name="springboot-demo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="spring-thread" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

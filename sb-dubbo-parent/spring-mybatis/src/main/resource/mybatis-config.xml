@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-
+    <settings>
+        <!--表示开启二级缓存-->
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
     <!-- 别名 -->
     <typeAliases>
         <package name="com.liyang"/>
@@ -23,4 +26,5 @@
         <mapper resource="com/liyang/pojo/UserBean.xml"/>
         <mapper resource="com/liyang/mapper/UserMapper.xml"/>
     </mappers>
+
 </configuration>
