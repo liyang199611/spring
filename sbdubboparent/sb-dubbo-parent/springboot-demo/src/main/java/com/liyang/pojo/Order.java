@@ -1,12 +1,12 @@
 package com.liyang.pojo;
 
 import java.io.Serializable;
-import java.util.Date;
 
 public class Order implements Serializable {
     private String oid;
     private String name;
     private String address;
+
 
     public String getAddress() {
         return address;

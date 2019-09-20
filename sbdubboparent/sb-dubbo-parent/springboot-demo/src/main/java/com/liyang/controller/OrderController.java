@@ -1,22 +1,29 @@
 package com.liyang.controller;
 
+import com.liyang.common.ReturnMakeJson;
+import com.liyang.component.JMSProducer;
+import com.liyang.exception.MyException;
 import com.liyang.pojo.Order;
 import com.liyang.service.OrderService;
+import org.apache.activemq.command.ActiveMQQueue;
+import org.apache.ibatis.annotations.Param;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import javax.jms.Destination;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.locks.ReentrantLock;
 
-@RestController
+@RestController //@Controller用于标注控制层组件(如struts中的action)
 public class OrderController {
+    private Logger logger = LoggerFactory.getLogger(OrderController.class);
 
     @Autowired
     private ThreadPoolTaskExecutor executor;
@@ -24,21 +31,23 @@ public class OrderController {
     @Autowired
     private OrderService orderService;
 
-    private ReentrantLock lock = new ReentrantLock();
+    @Autowired
+    private JMSProducer jmsProducer;
 
+    private ReentrantLock lock = new ReentrantLock();
     final BlockingDeque<Order> blockingDeque = new LinkedBlockingDeque();
 
     public void saveOrder(BlockingDeque<Order> blockingDeque) throws Exception{
         while (blockingDeque.take()!=null) {
             Order order = blockingDeque.take();
-            System.out.println(Thread.currentThread().getName() + ":保存了订单");
             orderService.saveOrder(order);
         }
     }
-
-
     @RequestMapping(value = "receive",method = RequestMethod.POST, produces = "application/json;charset=UTF-8")
-    public String receiveOrder(@RequestBody final List<Order> orderList) throws Exception{
+    public Map<String, Object> receiveOrder(@RequestBody final List<Order> orderList) throws MyException{
+        /**
+         * 这里演示多线程接收订单数据
+         */
         try{
             lock.lock();
             for (int i =0;i<orderList.size();i++) {
@@ -47,7 +56,7 @@ public class OrderController {
                     continue;
                 }
             }
-//            Thread.sleep(100000);
+            logger.info("队列里面有"+blockingDeque.size()+"条数据");
             executor.execute(new Runnable() {
                 @Override
                 public void run() {
@@ -59,10 +68,28 @@ public class OrderController {
                 }
             });
         }catch (Exception e){
-            e.printStackTrace();
+            logger.error("出现异常"+e.getMessage());
+            throw new MyException(e.getMessage());
         }finally {
             lock.unlock();
         }
-        return "1111111";
+        return ReturnMakeJson.result();
+    }
+
+    @RequestMapping(value = "/getorder",method = RequestMethod.POST, produces = "application/json;charset=UTF-8")
+    public Map receive(@RequestBody List<Order> orderList){
+        /**
+         * 演示activemq 异步接收订单数据
+        */
+        Destination destination = new ActiveMQQueue("springboot.queue.test");
+        for (Order order:orderList) {
+            try {
+                jmsProducer.sendMessage(destination,order.toString());
+            }catch (Exception e){
+                e.printStackTrace();
+                logger.error(order.getOid()+"发送到activemq失败");
+            }
+        }
+        return ReturnMakeJson.result();
     }
 }

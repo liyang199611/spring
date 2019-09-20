@@ -13,8 +13,10 @@ mybatis:
   #  config-location: classpath:mapper.config.sqlMapConfig.xml
   type-aliases-package: com.liyang.pojo
 
+# 日志配置
 logging:
   level:
     org:
       springframework=DEBUG:
+
 
