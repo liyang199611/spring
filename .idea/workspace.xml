@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7afe9290-6cc6-4890-80b3-8a345462ce7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/kubenetes/activemq-svc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/kubenetes/activemq-svc.yml" afterDir="false" />
-    </list>
+    <list default="true" id="7afe9290-6cc6-4890-80b3-8a345462ce7f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/sb-dubbo-parent/target/" />
     <ignored path="$PROJECT_DIR$/sb-dubbo-parent/sb-dubbo-interface/target/" />
@@ -65,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/kubenetes/activemq-svc.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="262">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -240,7 +237,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569036038529" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569036363480" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -415,7 +412,7 @@
       <workItem from="1568999180526" duration="510000" />
       <workItem from="1568999746683" duration="68000" />
       <workItem from="1568999854538" duration="802000" />
-      <workItem from="1569028894337" duration="6500000" />
+      <workItem from="1569028894337" duration="6779000" />
     </task>
     <servers />
   </component>
@@ -452,7 +449,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232338000" />
+    <option name="totallyTimeSpent" value="232617000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1100,8 +1097,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/kubenetes/activemq-svc.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="262">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
         </state>
       </provider>
     </entry>

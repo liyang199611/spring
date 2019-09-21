@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: activemq
-          image: rmohr/activemq:latest
+          image: rmohr/activemq:5.10.0
           imagePullPolicy: Never
           ports:
             - name: http8161
