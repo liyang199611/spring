@@ -25,7 +25,7 @@ spec:
               value: "root"
           volumeMounts:
             - mountPath: /var/lib/mysql
-              name: mysql-rc
+              name: mysql-pod
 ---
 apiVersion: v1
 kind: Service
