@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liyang.sb.mapper.UserMapper">
+    <insert id="addUser" parameterType="list">
+        insert into users(uid,name,phone,address,sex,job) values
+        <foreach collection="userList" item="user" separator="," close=";">
+            (#{user.uid},#{user.name},#{user.phone},#{user.address},#{user.sex},#{user.job})
+        </foreach>
+    </insert>
+
+    <select id="getUserByUid" parameterType="string" resultType="UserBean">
+        select * from users where uid=#{uid}
+    </select>
+</mapper>

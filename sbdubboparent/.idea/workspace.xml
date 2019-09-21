@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7afe9290-6cc6-4890-80b3-8a345462ce7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/resource/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/resource/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/resource/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/resource/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/classes/mapper/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/classes/mapper/config/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/classes/mapper/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/test-classes/com/liyang/activemq/MessageConsumer1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/test-classes/com/liyang/activemq/MessageConsumer1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/test-classes/com/liyang/activemq/MessageConsumer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/test-classes/com/liyang/activemq/MessageConsumer1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/test-classes/com/liyang/activemq/MessageConsumer2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/test-classes/com/liyang/activemq/MessageConsumer2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/test-classes/com/liyang/activemq/MessageConsumer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/test-classes/com/liyang/activemq/MessageConsumer2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/test-classes/com/liyang/activemq/MessageProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/target/test-classes/com/liyang/activemq/MessageProducer.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/sb-dubbo-parent/target/" />
@@ -43,12 +58,66 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/kubenetes/mysql-svc.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="182">
+              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/resource/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="52" selection-start-column="47" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/resource/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/build/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/kubenetes/springboot-demo.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/kubenetes/activemq-svc.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -79,7 +148,6 @@
       <find>calculateCapacity</find>
       <find>comparator</find>
       <find>70</find>
-      <find>mysql</find>
       <find>128</find>
       <find>elementData</find>
       <find>remove</find>
@@ -89,6 +157,10 @@
       <find>get</find>
       <find>LinkedBlockingDeque</find>
       <find>mongo-express</find>
+      <find>mysql-rc</find>
+      <find>mysql-pod</find>
+      <find>mysql</find>
+      <find>active</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,9 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/spring-mybatis-demo/src/main/java/com/liyang/dao/ClubDao.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/src/test/java/com/liyang/AppTest.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/src/test/java/com/liyang/B.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/src/test/java/com/liyang/Demo.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/sb-demo-study/src/main/java/com/liyang/aop/MyAop.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/sb-demo-study/src/main/java/com/liyang/test/Test1.java" />
@@ -126,7 +195,6 @@
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/test/java/com/liyang/AppTest.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/resource/logback-spring.xml" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/App.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/resource/application.yml" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/exception/MyException.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/mapper/OrderMapper.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/service/OrderService.java" />
@@ -134,12 +202,10 @@
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/controller/TestController.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/test/java/com/liyang/activemq/MessageProducer.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/test/java/com/liyang/activemq/MessageConsumer.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/resource/application.properties" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/test/java/com/liyang/activemq/MessageConsumer1.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/test/java/com/liyang/activemq/MessageConsumer2.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/config/ActiveMQConfiguration.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/exception/MyExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/pojo/Order.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/common/ReturnMakeJson.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/component/JMSCustomer.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/component/JMSProducer.java" />
@@ -147,7 +213,13 @@
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/pojo/Order.java" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/kubenetes/activemq-svc.yml" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/resource/application.properties" />
         <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/kubenetes/mysql-svc.yml" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/build/Dockerfile" />
+        <option value="$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/kubenetes/springboot-demo.yml" />
       </list>
     </option>
   </component>
@@ -169,7 +241,7 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="springboot-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -191,7 +263,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,7 +293,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,7 +309,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569001548079" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569056189257" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -412,6 +484,8 @@
       <workItem from="1568999180526" duration="510000" />
       <workItem from="1568999746683" duration="68000" />
       <workItem from="1568999854538" duration="802000" />
+      <workItem from="1569028894337" duration="9034000" />
+      <workItem from="1569055049588" duration="1135000" />
     </task>
     <servers />
   </component>
@@ -448,7 +522,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225058000" />
+    <option name="totallyTimeSpent" value="236007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,7 +537,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.116204694" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -475,7 +549,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49840087" weight="0.07375271" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49840087" visible="true" weight="0.09652928" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.6691974" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -483,7 +557,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.03253796" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.6616052" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50159913" side_tool="true" weight="0.43600866" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49840087" weight="0.53036875" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -726,36 +800,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13624">
-          <caret line="566" column="20" selection-start-line="566" selection-start-column="20" selection-end-line="566" selection-end-column="20" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-            <element signature="e#24331#24332#0" expanded="true" />
-            <element signature="e#24396#24397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/sb-demo-study/src/main/java/com/liyang/thread/MyFairLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/sb-dubbo-customer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="96" column="19" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/sb-dubbo-provider/src/main/java/com/liyang/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1003,13 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/pojo/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/spring-demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-156">
@@ -1059,13 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/resource/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/common/ReturnMakeJson.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -1086,24 +1116,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/java/com/liyang/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/resource/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" selection-start-column="47" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/main/resource/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="572">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="5">
           <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/build/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/kubenetes/activemq-svc.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/kubenetes/mysql-svc.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="182">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-parent/springboot-demo/src/kubenetes/springboot-demo.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
