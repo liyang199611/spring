@@ -1,49 +1,48 @@
 apiVersion: v1
 kind: ReplicationController
 metadata:
-  name: active-rc
+  name: activemq-rc
   namespace: liyang
   labels:
-    name: active-rc
+    name: activemq-rc
 spec:
   replicas: 1
   selector:
-    name: active-pod
+    name: activemq-pod
   template:
     metadata:
       labels:
-        name: active-pod
+        name: activemq-pod
     spec:
       containers:
-        - name: active
+        - name: activemq
           image: rmohr/activemq:5.10.0
           imagePullPolicy: Always
           ports:
-            - name: port8161
+            - name: http8161
               containerPort: 8161
-            - name: port61616
+            - name: http61616
               containerPort: 61616
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: active-svc
+  name: activemq-svc
   namespace: liyang
   labels:
-    name: active-svc
+    name: activemq-svc
 spec:
   type: NodePort
   ports:
     - port: 8161
       protocol: TCP
       targetPort: 8161
-      name: http
-      nodePort: 8161
+      name: http8161
+      nodePort: 23456
     - port: 61616
       protocol: TCP
       targetPort: 61616
-      name: http
-      nodePort: 61616
-
+      name: http61616
+      nodePort: 23457
   selector:
-    name: active-pod
+    name: activemq-pod
