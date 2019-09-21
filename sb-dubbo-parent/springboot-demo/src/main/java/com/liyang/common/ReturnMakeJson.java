@@ -18,6 +18,7 @@ public class ReturnMakeJson implements Serializable {
         this.returnMsg = returnMsg;
         this.data = data;
     }
+    public ReturnMakeJson(){}
     public Object getData() {
         return data;
     }
@@ -42,7 +43,7 @@ public class ReturnMakeJson implements Serializable {
         this.returnMsg = returnMsg;
     }
 
-    public static Map<String,Object> result(){
+    public  Map<String,Object> result(){
         Map map = new HashMap();
         map.put("retrun_code",returnCode);
         map.put("return_msg",returnMsg);

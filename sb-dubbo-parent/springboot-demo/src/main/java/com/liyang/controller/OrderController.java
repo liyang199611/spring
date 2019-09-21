@@ -73,7 +73,7 @@ public class OrderController {
         }finally {
             lock.unlock();
         }
-        return ReturnMakeJson.result();
+        return new ReturnMakeJson().result();
     }
 
     @RequestMapping(value = "/getorder",method = RequestMethod.POST, produces = "application/json;charset=UTF-8")
@@ -90,6 +90,6 @@ public class OrderController {
                 logger.error(order.getOid()+"发送到activemq失败");
             }
         }
-        return ReturnMakeJson.result();
+        return new ReturnMakeJson().result();
     }
 }
