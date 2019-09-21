@@ -11,6 +11,7 @@ public class ReturnMakeJson implements Serializable {
     private static int returnCode = 200;
     private static String returnMsg = "调用成功";
     private static Object data = null;
+    private static String version = "springboot-demo:v20190921.1";
 
     public ReturnMakeJson(int returnCode,String returnMsg,Object data){
         this.returnCode = returnCode;
@@ -46,6 +47,7 @@ public class ReturnMakeJson implements Serializable {
         map.put("retrun_code",returnCode);
         map.put("return_msg",returnMsg);
         map.put("data",data);
+        map.put("version",version);
         return map;
     }
 }

@@ -1,39 +1,36 @@
 apiVersion: v1
 kind: ReplicationController
 metadata:
-  name: mysql-rc
+  name: redis-rc
   namespace: liyang
   labels:
-    name: mysql-rc
+    name: redis-rc
 spec:
   replicas: 1
   selector:
-    name: mysql-pod
+    name: redis-pod
   template:
     metadata:
       labels:
-        name: mysql-pod
+        name: redis-pod
     spec:
       containers:
-        - name: mysql
-          image: mysql:5.7
+        - name: redis
+          image: redis:5.7
           imagePullPolicy: Always
           ports:
             - containerPort: 3306
           env:
             - name: MYSQL_ROOT_PASSWORD
               value: "root"
-        volumeMounts:
-          - mountPath: /var/lib/mysql
-            name: mysql-rc
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: mysql-svc
+  name: redis-svc
   namespace: liyang
   labels:
-    name: mysql-svc
+    name: redis-svc
 spec:
   type: NodePort
   ports:
@@ -43,4 +40,4 @@ spec:
       name: http
       nodePort: 33306
   selector:
-    name: mysql-pod
+    name: redis-pod
