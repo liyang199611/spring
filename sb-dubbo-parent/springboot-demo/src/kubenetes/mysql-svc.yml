@@ -23,9 +23,9 @@ spec:
           env:
             - name: MYSQL_ROOT_PASSWORD
               value: "root"
-        volumeMounts:
-          - mountPath: /var/lib/mysql
-            name: mysql-rc
+          volumeMounts:
+            - mountPath: /var/lib/mysql
+              name: mysql-rc
 ---
 apiVersion: v1
 kind: Service
