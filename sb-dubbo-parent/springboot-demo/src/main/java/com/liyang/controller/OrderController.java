@@ -35,7 +35,7 @@ public class OrderController {
     private JMSProducer jmsProducer;
 
     private ReentrantLock lock = new ReentrantLock();
-    final BlockingDeque<Order> blockingDeque = new LinkedBlockingDeque();
+    final BlockingDeque<Order> blockingDeque = new LinkedBlockingDeque<Order>();
 
     public void saveOrder(BlockingDeque<Order> blockingDeque) throws Exception{
         while (blockingDeque.take()!=null) {

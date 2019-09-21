@@ -1,11 +1,11 @@
 server:
-  port: 8082 #Tomcat端口
+  port: 8081 #Tomcat端口
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.17.21:3306/mydb?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://192.168.17.21:33306/mydb?useUnicode=true&characterEncoding=utf-8
     username: root
-    password: Passw0rd
+    password: root
 
 # springboot -- mybatis配置
 mybatis:

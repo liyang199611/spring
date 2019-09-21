@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sb-demo-study" />
+        <module name="sb-dubbo-customer" />
+        <module name="sb-dubbo-provider" />
+        <module name="spring-demo" />
+        <module name="spring-mybatis" />
+        <module name="spring-mybatis-demo" />
+        <module name="springboot-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sb-demo-study" target="1.7" />
+      <module name="sb-dubbo-customer" target="1.7" />
+      <module name="sb-dubbo-parent" target="1.7" />
+      <module name="sb-dubbo-provider" target="1.7" />
+      <module name="spring-demo" target="1.7" />
+      <module name="spring-mybatis" target="1.7" />
+      <module name="spring-mybatis-demo" target="1.7" />
+      <module name="springboot-demo" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

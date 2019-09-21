@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sb-demo-study/sb-demo-study.iml" filepath="$PROJECT_DIR$/sb-demo-study/sb-demo-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sb-dubbo-customer/sb-dubbo-customer.iml" filepath="$PROJECT_DIR$/sb-dubbo-customer/sb-dubbo-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sb-dubbo-parent.iml" filepath="$PROJECT_DIR$/sb-dubbo-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sb-dubbo-provider/sb-dubbo-provider.iml" filepath="$PROJECT_DIR$/sb-dubbo-provider/sb-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" filepath="$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis-demo/spring-mybatis-demo.iml" filepath="$PROJECT_DIR$/spring-mybatis-demo/spring-mybatis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo/springboot-demo.iml" filepath="$PROJECT_DIR$/springboot-demo/springboot-demo.iml" />
+    </modules>
+  </component>
+</project>
