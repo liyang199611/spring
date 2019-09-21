@@ -25,7 +25,11 @@ spec:
               value: "root"
           volumeMounts:
             - mountPath: /var/lib/mysql
-              name: mysql-pod
+              name: mysql-data
+      volumes:
+        - name: mysql-data
+          hostPath:
+            path: /var/lib/mysql
 ---
 apiVersion: v1
 kind: Service
