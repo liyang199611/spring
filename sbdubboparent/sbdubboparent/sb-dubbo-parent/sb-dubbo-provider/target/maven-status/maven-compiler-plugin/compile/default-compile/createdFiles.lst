@@ -1,6 +1,0 @@
-com\liyang\sb\mapper\UserMapper.class
-com\liyang\sb\config\RedisConfig.class
-com\liyang\App.class
-com\liyang\sb\bean\UserBean.class
-com\liyang\sb\service\impl\UserServiceImpl.class
-com\liyang\sb\service\UserService.class
