@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: springboot-demo
-          image: springboot-demo:v20190921.2
+          image: springboot-demo:v20190921.3
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8081
