@@ -2,6 +2,7 @@ package com.liyang.controller;
 
 import com.liyang.common.ReturnMakeJson;
 import com.liyang.component.JMSProducer;
+import com.liyang.component.ThreadCustomer;
 import com.liyang.exception.MyException;
 import com.liyang.pojo.Order;
 import com.liyang.service.OrderService;
@@ -15,6 +16,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.jms.Destination;
+import javax.jms.MessageConsumer;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.BlockingDeque;
@@ -33,6 +35,12 @@ public class OrderController {
 
     @Autowired
     private JMSProducer jmsProducer;
+
+    @Autowired
+    private MessageConsumer messageConsumer;
+
+    @Autowired
+    private ThreadCustomer threadCustomer;
 
     private ReentrantLock lock = new ReentrantLock();
     final BlockingDeque<Order> blockingDeque = new LinkedBlockingDeque<Order>();
@@ -79,8 +87,9 @@ public class OrderController {
     @RequestMapping(value = "/getorder",method = RequestMethod.POST, produces = "application/json;charset=UTF-8")
     public Map receive(@RequestBody List<Order> orderList){
         /**
-         * 演示activemq 异步接收订单数据
+         * 演示activemq 异步接收订单数据，这里有两个地方的数据来接收，一个是springboot自定义监听器来监听消息，一个是自定义多线程
         */
+        System.out.println(messageConsumer);
         Destination destination = new ActiveMQQueue("springboot.queue.test");
         for (Order order:orderList) {
             try {
@@ -90,6 +99,9 @@ public class OrderController {
                 logger.error(order.getOid()+"发送到activemq失败");
             }
         }
+        // 使用多线程接收
+        logger.info("使用多线程接收");
+        threadCustomer.receive();
         return new ReturnMakeJson().result();
     }
 }

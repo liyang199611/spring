@@ -62,6 +62,9 @@ public class SeckillController {
 
     @RequestMapping("/skillOrder")
     public Map skillGoods(@RequestParam String uid){
+        if(uid == null || "".equals(uid)){
+            return new ReturnMakeJson(201,"uid不能为null",null).result();
+        }
         // 秒杀商品生成订单
         List<SeckillGoods> seckillGoodsList = seckillGoodsService.getGoodsList();
         logger.info("本次秒杀一共:"+seckillGoodsList.size()+"个商品");

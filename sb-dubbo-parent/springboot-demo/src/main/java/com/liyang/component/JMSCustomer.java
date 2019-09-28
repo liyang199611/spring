@@ -2,6 +2,8 @@ package com.liyang.component;
 
 import com.liyang.pojo.Order;
 import com.liyang.service.OrderService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
@@ -12,10 +14,13 @@ public class JMSCustomer {
     @Autowired
     private ThreadPoolTaskExecutor threadPoolTaskExecutor;
 
+    // 在这里注入多线程来接收消息
     @Autowired
     private OrderService orderService;
 
-    @JmsListener(destination = "springboot.queue.test")
+    private Logger logger = LoggerFactory.getLogger(JMSCustomer.class);
+
+    @JmsListener(destination = "springboot.queue.test") // springboot 自动注入监听器
     public void receiveQueen(String msg){
         try{
             String orderInfo [] =  msg.split(",");
@@ -27,6 +32,7 @@ public class JMSCustomer {
             order.setOid(oid);
             order.setName(name);
             orderService.saveOrder(order);
+            logger.info(Thread.currentThread().getName()+":" + msg);
         }catch (Exception e){
             e.printStackTrace();
         }
