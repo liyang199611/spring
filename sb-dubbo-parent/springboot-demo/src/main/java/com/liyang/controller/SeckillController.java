@@ -6,6 +6,8 @@ import com.liyang.common.ReturnMakeJson;
 import com.liyang.pojo.SeckillGoods;
 import com.liyang.pojo.SeckillOrders;
 import com.liyang.service.SeckillGoodsService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -26,8 +28,14 @@ public class SeckillController {
     @Autowired
     private  SeckillGoodsService seckillGoodsService;
 
-    Random random = new Random();
-    SimpleDateFormat sdf = new SimpleDateFormat( "yyyy-MM-dd HH:mm:ss" );
+    // 随机数
+    private Random random = new Random();
+
+    // 格式化时间
+    private SimpleDateFormat sdf = new SimpleDateFormat( "yyyy-MM-dd HH:mm:ss" );
+
+    // 日志记录
+    private Logger logger = LoggerFactory.getLogger(SeckillController.class);
 
     // 加锁优化
     private Lock lock = new ReentrantLock();
@@ -56,6 +64,7 @@ public class SeckillController {
     public Map skillGoods(@RequestParam String uid){
         // 秒杀商品生成订单
         List<SeckillGoods> seckillGoodsList = seckillGoodsService.getGoodsList();
+        logger.info("本次秒杀一共:"+seckillGoodsList.size()+"个商品");
         // 每一个用户都是从里面随机挑选一个商品购买
         SeckillGoods seckillGoods = seckillGoodsList.get(random.nextInt(seckillGoodsList.size()));
         String pid = seckillGoods.getPid();
@@ -64,6 +73,7 @@ public class SeckillController {
         SeckillGoods seckillGoodsInfo = null;
         try{
             lock.lock();
+            logger.info(Thread.currentThread().getName()+"--------:获得了锁");
             seckillGoodsInfo = seckillGoodsService.getGoodsByPid(pid);
             if (userBurQty ==0){
                 userBurQty = random.nextInt(10);
@@ -95,6 +105,7 @@ public class SeckillController {
             return null;
         }finally {
             lock.unlock();
+            logger.info(Thread.currentThread().getName()+"--------:释放了锁");
         }
         return new ReturnMakeJson(200,"订单生成失败",null).result();
     }
