@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
 import java.util.Map;
 
-@Component
+//@Component  // 暂时屏蔽登陆拦截器
 public class LoginInterceptor implements HandlerInterceptor {
     private Logger logger = LoggerFactory.getLogger(LoginInterceptor.class);
 
