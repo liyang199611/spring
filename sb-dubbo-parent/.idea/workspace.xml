@@ -2,8 +2,205 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf751457-9db7-494b-af3d-897df530e97c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java_basics/java_basics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_basics/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_196.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_196.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_java6_2_3_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_java6_2_3_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dubbo_springboot_spring_boot_starter_dubbo_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dubbo_springboot_spring_boot_starter_dubbo_1_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_all_5_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_all_5_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_broker_5_14_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_broker_5_14_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_14_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_14_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_jms_pool_5_14_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_jms_pool_5_14_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_openwire_legacy_5_14_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_openwire_legacy_5_14_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_pool_5_14_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_pool_5_14_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_0_1B_spec_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_0_1B_spec_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_activemq_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_activemq_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_2_5_6_SEC03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_2_5_6_SEC03.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_4_3_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/ThreadCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/ThreadCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/aop/MyAop$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/aop/MyAop$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/aop/MyAop.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/aop/MyAop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/aop/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/aop/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/aop/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/aop/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/CollectionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/CollectionDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/D.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/ListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/ListDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/SetDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/collection/SetDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/mytree/MyTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/mytree/MyTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/mytree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/mytree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/mytree/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/mytree/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/newcollection/TestList.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/newcollection/TestList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/Job.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/Job.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/MyTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/MyTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/Test$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/Test$A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/test/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/Bao.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/Bao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/CreateA.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/CreateA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/CreateB.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/CreateB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/CreateC.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/CreateC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/DeadLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/DeadLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/LockExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/LockExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/LockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/LockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/MyFairLock$My.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/MyFairLock$My.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/MyFairLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/MyFairLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/MyLocalThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/MyLocalThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/MyRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/RedBall.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/RedBall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/SynObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/SynObj.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/SynchronizedExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/SynchronizedExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/SynchronizedExample_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/SynchronizedExample_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/SynchronizedExample_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/SynchronizedExample_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/TA.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/TA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/TB.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/TB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/Test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/Test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/Test$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/Test$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/Test$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/Test$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/ThreadA.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/ThreadA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/ThreadB.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/ThreadB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/ThreadC.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/ThreadC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/ThreadD$MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/ThreadD$MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/ThreadD$MyThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/ThreadD$MyThread2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/ThreadD.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/ThreadD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/ThreadE.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/ThreadE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/thread/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/tree/My.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/tree/My.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/tree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/tree/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/tree/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/tree/TreeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-demo-study/target/classes/com/liyang/tree/TreeImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/main/source/jdbc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/source/jdbc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/aspect/LoggerAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/aspect/LoggerAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/pojo/CollectionBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/pojo/CollectionBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/pojo/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/pojo/ProductConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/pojo/ProductConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/pojo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/pojo/StudentConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/pojo/StudentConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/pojo/TestBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/pojo/TestBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/pojo/UserBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/pojo/UserBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/test/SingleLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/test/SingleLinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/test/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/test/SingleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/test/SpringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/target/classes/com/liyang/test/SpringTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-demo/target/" />
@@ -13,6 +210,8 @@
     <ignored path="$PROJECT_DIR$/springboot-demo/target/" />
     <ignored path="$PROJECT_DIR$/spring-mybatis-demo/target/" />
     <ignored path="$PROJECT_DIR$/spring-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/java_basics/target/" />
+    <ignored path="$PROJECT_DIR$/spring-all/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,106 +221,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/controller/OrderController.java">
+        <entry file="file://$PROJECT_DIR$/spring-all/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+            <state relative-caret-position="669">
+              <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/JMSProducer.java">
+        <entry file="file://$PROJECT_DIR$/spring-all/src/main/java/com/liyang/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/controller/SeckillController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/controller/CommonController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/config/ActiveCustomerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/common/ReturnMakeJson.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/JMSCustomer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="260">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-demo/src/kubenetes/kubernetes部署-jq.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-936" />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/ThreadCustomer.java">
+        <entry file="file://$PROJECT_DIR$/springboot-demo/src/kubenetes/mysql-svc.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1187">
-              <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2022#2142#0" expanded="true" />
-                <element signature="e#2141#2142#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/SaticScheduleTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="513">
+              <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -143,6 +264,8 @@
       <find>SeckillOrders</find>
       <find>liyangspringboot.queue.test</find>
       <find>executor</find>
+      <find>add</find>
+      <find>put</find>
     </findStrings>
     <replaceStrings>
       <replace>seckillOrders</replace>
@@ -154,11 +277,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-demo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot-demo/src/kubenetes/mysql-svc.yml" />
-        <option value="$PROJECT_DIR$/springboot-demo/src/kubenetes/redis-svc.yml" />
-        <option value="$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/common/ReturnMakeJson.java" />
-        <option value="$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/common/MD5Utils.java" />
         <option value="$PROJECT_DIR$/springboot-demo/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/config/RedisAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/config/RedisConfiguration.java" />
@@ -204,7 +322,21 @@
         <option value="$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/ThreadCustomer.java" />
         <option value="$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/config/ActiveCustomerConfig.java" />
         <option value="$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/JMSCustomer.java" />
+        <option value="$PROJECT_DIR$/spring-demo/src/main/source/jdbc.xml" />
+        <option value="$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-demo/src/test/java/com/liyang/activemq/MessageProducer.java" />
+        <option value="$PROJECT_DIR$/java_basics/pom.xml" />
+        <option value="$PROJECT_DIR$/java_basics/src/main/com/liyang/datatype/IntegerDemo.java" />
+        <option value="$PROJECT_DIR$/spring-all/pom.xml" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\apache-maven-3.5.4\mav_repo" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -233,8 +365,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="48" />
-    <option name="y" value="71" />
+    <option name="x" value="45" />
+    <option name="y" value="192" />
     <option name="width" value="1381" />
     <option name="height" value="1100" />
   </component>
@@ -250,59 +382,6 @@
             <path>
               <item name="sb-dubbo-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sb-dubbo-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sb-demo-study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sb-dubbo-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sb-dubbo-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sb-dubbo-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="kubenetes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sb-dubbo-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sb-dubbo-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sb-dubbo-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sb-dubbo-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sb-dubbo-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,14 +400,16 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569684071339" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571466793384" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-all" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\study\mygit\sb-dubbo-parent\java_basics" />
+      <recent name="E:\study\mygit\sb-dubbo-parent\springboot-demo\src\kubenetes" />
       <recent name="E:\study\mygit\sb-dubbo-parent\springboot-demo\src\main\resources\mapper" />
     </key>
   </component>
@@ -350,13 +431,13 @@
     </option>
     <option name="contentProportion" value="0.016233766" />
   </component>
-  <component name="RunManager" selected="Spring Boot.App (1)">
-    <configuration name="BigdecimalUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liyang.common.BigdecimalUtils" />
-      <module name="springboot-demo" />
+  <component name="RunManager" selected="Application.IntegerDemo">
+    <configuration name="IntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liyang.datatype.IntegerDemo" />
+      <module name="java_basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liyang.common.*" />
+          <option name="PATTERN" value="com.liyang.datatype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,41 +445,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IDUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liyang.common.IDUtils" />
-      <module name="springboot-demo" />
+    <configuration name="MyAop.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sb-demo-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liyang.common.*" />
+          <option name="PATTERN" value="com.liyang.aop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.liyang.aop" />
+      <option name="MAIN_CLASS_NAME" value="com.liyang.aop.MyAop" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MD5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.liyang.common.MD5Utils" />
-      <module name="springboot-demo" />
+    <configuration name="SingleLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liyang.common.*" />
+          <option name="PATTERN" value="com.liyang.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.liyang.test" />
+      <option name="MAIN_CLASS_NAME" value="com.liyang.test.SingleLinkedList" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-demo" />
+    <configuration name="SpringTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liyang.*" />
+          <option name="PATTERN" value="com.liyang.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liyang.App" />
+      <option name="PACKAGE_NAME" value="com.liyang.test" />
+      <option name="MAIN_CLASS_NAME" value="com.liyang.test.SpringTest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liyang.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.liyang.test" />
+      <option name="MAIN_CLASS_NAME" value="com.liyang.test.SpringTest" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -412,10 +517,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.App (1)" />
-        <item itemvalue="Application.BigdecimalUtils" />
-        <item itemvalue="Application.IDUtils" />
-        <item itemvalue="Application.MD5Utils" />
+        <item itemvalue="Application.IntegerDemo" />
+        <item itemvalue="JUnit.MyAop.test1" />
+        <item itemvalue="JUnit.SingleLinkedList" />
+        <item itemvalue="JUnit.SpringTest.test7" />
+        <item itemvalue="JUnit.SpringTest.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -433,17 +539,50 @@
       <workItem from="1569128595223" duration="627000" />
       <workItem from="1569241321054" duration="8914000" />
       <workItem from="1569649935335" duration="24520000" />
-      <workItem from="1569760354032" duration="1048000" />
+      <workItem from="1569760354032" duration="4186000" />
+      <workItem from="1570763543219" duration="1425000" />
+      <workItem from="1570942278858" duration="652000" />
+      <workItem from="1571281757742" duration="3921000" />
+      <workItem from="1571466011721" duration="816000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SpringTest_test8 - 2019.09.29 at 21h 09m 30s.xml">
+      <configuration name="SpringTest.test8" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringTest_test6 - 2019.09.29 at 21h 18m 17s.xml">
+      <configuration name="SpringTest.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringTest_test7 - 2019.09.29 at 21h 18m 52s.xml">
+      <configuration name="SpringTest.test7" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringTest_test8 - 2019.09.29 at 21h 19m 53s.xml">
+      <configuration name="SpringTest.test8" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringTest_test7 - 2019.09.29 at 21h 20m 01s.xml">
+      <configuration name="SpringTest.test7" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringTest_test7 - 2019.09.29 at 21h 20m 59s.xml">
+      <configuration name="SpringTest.test7" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringTest_test7 - 2019.09.29 at 21h 22m 49s.xml">
+      <configuration name="SpringTest.test7" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleLinkedList - 2019.09.29 at 21h 31m 15s.xml">
+      <configuration name="SingleLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyAop_test1 - 2019.09.29 at 21h 34m 59s.xml">
+      <configuration name="MyAop.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42031000" />
+    <option name="totallyTimeSpent" value="51983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20522387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1433902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -453,8 +592,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.6626898" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2407809" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.33126295" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.54451346" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -462,11 +601,11 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.4208243" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.2733189" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.77982646" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.47288504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -539,6 +678,18 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/test/SpringTest.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java_basics/src/main/com/liyang/datatype/IntegerDemo.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -547,290 +698,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/service/impl/SeckillGoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/kubenetes/springboot.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context-support/4.3.13.RELEASE/spring-context-support-4.3.13.RELEASE.jar!/org/springframework/scheduling/quartz/QuartzJobBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/TestQuartz.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/config/QuartzConfig.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/config/MvcInterceptorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/source/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/test/SpringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/config/ThreadConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/config/JmsTemplateConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/TaskCustomer.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/resources/ActiveMq.xml" />
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/QueueMessageListener.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/config/ActiveMqConfig.java" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jms/4.3.13.RELEASE/spring-jms-4.3.13.RELEASE.jar!/org/springframework/jms/core/JmsTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/test/java/com/liyang/activemq/MessageProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/CommandLineRunnerImpl.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/ConsumerThreadMessageListener.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/test/java/com/liyang/activemq/MessageConsumer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding>
-            <element signature="e#972#1356#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/springboot-demo.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/test/java/com/liyang/activemq/MessageConsumer1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#972#1356#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-demo-study/src/main/java/com/liyang/thread/MyFairLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-demo-study/src/main/java/com/liyang/thread/RedBall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-demo-study/src/main/java/com/liyang/thread/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-demo-study/src/main/java/com/liyang/thread/LockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-demo-study/src/main/java/com/liyang/thread/SynObj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-demo-study/src/main/java/com/liyang/thread/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-demo-study/src/main/java/com/liyang/thread/ThreadB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sb-demo-study/src/main/java/com/liyang/thread/ThreadC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="44" column="67" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/resources/mapper/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/common/IDUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/common/BigdecimalUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/common/ReturnMakeJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/SaticScheduleTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/config/ActiveCustomerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/controller/CommonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/controller/SeckillController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -859,16 +726,366 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/java/com/liyang/component/JMSCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="528">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/pojo/CollectionBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/pojo/TestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="572" column="28" lean-forward="true" selection-start-line="572" selection-start-column="28" selection-end-line="572" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/aspect/LoggerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/pojo/ProductConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/pojo/StudentConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/test/SpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/pojo/UserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/source/jdbc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+          <folding>
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/test/SingleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-demo-study/src/main/java/com/liyang/aop/MyAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-demo-study/src/main/java/com/liyang/aop/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-demo-study/src/main/java/com/liyang/aop/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo/src/test/java/com/liyang/activemq/MessageProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-demo/src/kubenetes/kubernetes部署-jq.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-936" />
+          <first_editor relative-caret-position="1196">
+            <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/resources/mapper/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-demo-study/src/main/java/com/liyang/collection/ListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-demo-study/src/main/java/com/liyang/collection/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/java/com/liyang/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-demo/src/main/source/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo/src/main/resources/mapper/config/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-demo-study/src/main/java/com/liyang/collection/CollectionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-customer/src/main/java/com/liyang/sb/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb-dubbo-customer/src/main/java/com/liyang/sb/aop/WebAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_basics/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2028">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_basics/src/main/java/com/liyang/aop/MyAop.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1765">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_basics/src/main/com/liyang/datatype/IntegerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#82#83#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2054">
+          <caret line="107" column="30" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="30" />
+          <folding>
+            <element signature="e#5774#5775#0" expanded="true" />
+            <element signature="e#5798#5799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20670">
+          <caret line="828" column="26" selection-start-line="828" selection-start-column="26" selection-end-line="828" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/invoke/MethodHandleImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/invoke/MethodHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36530">
+          <caret line="1450" selection-start-line="1450" selection-end-line="1450" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="600" column="23" selection-start-line="600" selection-start-column="14" selection-end-line="600" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-all/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-all/src/main/java/com/liyang/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-demo/src/kubenetes/mysql-svc.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
         </state>
       </provider>
     </entry>

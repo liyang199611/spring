@@ -16,6 +16,8 @@
     <module>spring-mybatis</module>
     <module>spring-mybatis-demo</module>
       <module>springboot-demo</module>
+      <module>java_basics</module>
+      <module>spring-all</module>
   </modules>
 
   <parent>
